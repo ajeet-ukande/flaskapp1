@@ -8,6 +8,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 nlp = spacy.load("en_core_web_sm")
+#demo app
 app = Flask(__name__)
 
 def txt_summarizer(raw_docx):
